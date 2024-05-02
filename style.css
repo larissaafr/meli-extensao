@@ -1,0 +1,87 @@
+.mlext-container {
+  margin-bottom: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  box-shadow: 1px 6px 3px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-left: solid;
+  border-width: 2px;
+  border-color: #4109da;
+  border-radius: 3px;
+}
+
+.mlext-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 2px 1px;
+  font-weight: bold;
+}
+ p {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-weight: bold;
+  text-align: center; 
+}
+.mlext-container li > span {
+  padding: 2px 4px;
+  background-color: #fff;
+  color: #4109da;
+  font-weight: bold;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #fff;
+  cursor: pointer;
+}
+
+.mlext-container li img {
+  margin-right: 2px;
+}
+
+
+
+.mlext-container li > span:hover {
+  background-color: #4109da;
+  color: #fff;
+}
+#cost {
+  border: 1px solid #4109da; 
+  padding: 2px 4px;
+  background-color: #fff;
+  color: #4109da;
+  font-weight: bold;
+  font-size: 12px;
+  border-width: 1px;
+  border-radius: 4px;/* Define a borda azul com 2px de largura */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 0px;
+}
+#tax{
+  border: 1px solid #4109da; 
+  padding: 2px 2px;
+  background-color: #fff;
+  color: #4109da;
+  font-weight: bold;
+  font-size: 12px;
+  border-width: 1px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2px 0px;
+/* Define a borda azul com 2px de largura */
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 50,
+  'GRAD' 0,
+  'opsz' 5
+}
